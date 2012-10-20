@@ -1,7 +1,3 @@
-gem_package "unicorn" do
-  version node[:unicorn][:version]
-end
-
 directory node[:unicorn][:config_path] do
   mode 0755
 end
